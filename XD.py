@@ -175,6 +175,7 @@ logo=("""\033[1;91m
 [~] Facebook : Shezy Hun Yawr
 [~] Tool     : Private 
 [~] Version  : 0.01
+[~] TEAM    : SAJJAD & NADIR
 \033[1;32m----------------------------------------------""")
 def linex():
 	print('\033[1;37m----------------------------------------------')
@@ -223,7 +224,7 @@ tokenku=[]
 def menu():
 			clear()
 		#	linex()
-			print(' [1] File cloning\n [2] Random cloning\n [3] gmail cloning \n [4] join whatsap group \n [0] Exit menu')
+			print(' [1] File cloning\n [2] Random cloning\n [3] gmail cloning \n')
 			linex()
 			xd=input(' Choose an option: ')
 		#	os.system('xdg-open https://www.facebook.com/dr.paigham')
@@ -303,7 +304,7 @@ def menu():
 				#dz._login()
 				exit()
 			elif xd in ['4','04']:
-				os.system('xdg-open https://chat.whatsapp.com/GRCLEUOREdd1SDMTX1TsKk')
+				os.system('xdg-open https://chat.whatsapp.com/EJTXuyN1rwMFpJMtP04hOh')
 				menu()
 			elif xd in ['0','00']:
 				exit(' Thanks for use 🥰 ')
